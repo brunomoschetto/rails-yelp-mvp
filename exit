@@ -1,0 +1,41 @@
+=> 
+[[32m#<Restaurant:0x00007fdb77c93858[0m
+  id: [34m[1m1[0m,
+  name: [31m[1m"[0m[31mDishoom[0m[31m[1m"[0m,
+  address: [31m[1m"[0m[31m7 Boundary St, London E2 7JE[0m[31m[1m"[0m,
+  phone_number: [31m[1m"[0m[31m2020658[0m[31m[1m"[0m,
+  category: [31m[1m"[0m[31mchinese[0m[31m[1m"[0m,
+  created_at: Wed, 16 Oct 2024 13:42:54.016044000 UTC +00:00,
+  updated_at: Wed, 16 Oct 2024 13:42:54.016044000 UTC +00:00[32m>[0m,
+ [32m#<Restaurant:0x00007fdb77a46550[0m
+  id: [34m[1m2[0m,
+  name: [31m[1m"[0m[31mPizza East[0m[31m[1m"[0m,
+  address: [31m[1m"[0m[31m56A Shoreditch High St, London E1 6PQ[0m[31m[1m"[0m,
+  phone_number: [31m[1m"[0m[31m1540841797[0m[31m[1m"[0m,
+  category: [31m[1m"[0m[31mitalian[0m[31m[1m"[0m,
+  created_at: Wed, 16 Oct 2024 13:42:54.055598000 UTC +00:00,
+  updated_at: Wed, 16 Oct 2024 13:42:54.055598000 UTC +00:00[32m>[0m,
+ [32m#<Restaurant:0x00007fdb77a46410[0m
+  id: [34m[1m3[0m,
+  name: [31m[1m"[0m[31mAnyong[0m[31m[1m"[0m,
+  address: [31m[1m"[0m[31mKyoto[0m[31m[1m"[0m,
+  phone_number: [31m[1m"[0m[31m47448293[0m[31m[1m"[0m,
+  category: [31m[1m"[0m[31mjapanese[0m[31m[1m"[0m,
+  created_at: Wed, 16 Oct 2024 13:42:54.067423000 UTC +00:00,
+  updated_at: Wed, 16 Oct 2024 13:42:54.067423000 UTC +00:00[32m>[0m,
+ [32m#<Restaurant:0x00007fdb77a462d0[0m
+  id: [34m[1m4[0m,
+  name: [31m[1m"[0m[31mLa petit mort[0m[31m[1m"[0m,
+  address: [31m[1m"[0m[31msomewhere in France[0m[31m[1m"[0m,
+  phone_number: [31m[1m"[0m[31m1567897901[0m[31m[1m"[0m,
+  category: [31m[1m"[0m[31mfrench[0m[31m[1m"[0m,
+  created_at: Wed, 16 Oct 2024 13:42:54.079454000 UTC +00:00,
+  updated_at: Wed, 16 Oct 2024 13:42:54.079454000 UTC +00:00[32m>[0m,
+ [32m#<Restaurant:0x00007fdb77a46190[0m
+  id: [34m[1m5[0m,
+  name: [31m[1m"[0m[31mBrussels Restaurant[0m[31m[1m"[0m,
+  address: [31m[1m"[0m[31mNot in Brussels but in Belgium[0m[31m[1m"[0m,
+  phone_number: [31m[1m"[0m[31m1556854054[0m[31m[1m"[0m,
+  category: [31m[1m"[0m[31mbelgian[0m[31m[1m"[0m,
+  created_at: Wed, 16 Oct 2024 13:42:54.103474000 UTC +00:00,
+  updated_at: Wed, 16 Oct 2024 13:42:54.103474000 UTC +00:00[32m>[0m]
