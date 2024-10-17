@@ -1,5 +1,25 @@
-<h1><%= @restaurant.name %></h1>
+<div class="container m-4">
+  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+    <h1><%= @restaurant.name %></h1>
+    <p><strong>Address:</strong> <%=@restaurant.address%></p>
+    <p><strong>Phone:</strong> <%=@restaurant.phone_number%></p>
+    <p><strong>Category:</strong> <%=@restaurant.category%></p>
+  </div>
 
-<p><strong>Address:</strong> <%=@restaurant.address%></p>
-<p><strong>Phone:</strong> <%=@restaurant.phone_number%></p>
-<p><strong>Category:</strong> <%=@restaurant.category%></p>
+  <div class="m-3">
+    <%= link_to "Back to home", restaurants_path, class: "btn btn-primary"%>
+    <%# <%= link_to "Write a review", new_restaurant_review_path(@restaurant), class: "btn btn-danger"%>
+    <%= link_to "See reviews", restaurant_reviews_path(@restaurant), class: "btn btn-success"%>
+  </div>
+
+  <h1>Write a new review</h1>
+  <div class="m-5">
+    <%= simple_form_for [@restaurant, @review] do |f| %>
+      <%= f.input :content %>
+      <%= f.input :rating %>
+      <%= f.submit "Submit review", class: "btn btn-primary" %>
+    <% end %>
+  </div>
+
+  <%# <%= link_to "Back to #{@restaurant.name} page", @restaurant, class: "btn btn-warning"%>
+</div>

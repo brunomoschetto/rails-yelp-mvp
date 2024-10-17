@@ -1,10 +1,15 @@
 <h1>Reviews for <%= @restaurant.name %></h1>
 
-<div id="reviews">
-  <ul>
-    <% @restaurant.reviews.each do |review| %>
-      <li><h3><%= review.rating %></h3></li>
-      <p><%= review.content %></p>
-    <% end %>
-  </ul>
+<div id="reviews" class="m-4">
+  <% @restaurant.reviews.each do |review| %>
+  <div class="card-product m-2">
+  <img src="https://avatar.iran.liara.run/public/4" />
+    <div class="card-product-infos">
+      <h4>Rating: <%= review.rating %></h4>
+      <p>Comments: <%= review.content %></p>
+    </div>
+  </div>
+  <% end %>
+
+  <%= link_to "Back to #{@restaurant.name} page", @restaurant, class: "btn btn-warning"%>
 </div>

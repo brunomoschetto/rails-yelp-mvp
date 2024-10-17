@@ -1,19 +1,21 @@
-<h1>Restaurants</h1>
 
-<div id="restaurants">
-  <ul>
-    <% @restaurants.each do |restaurant| %>
-      <li><h3><%= restaurant.name %></h3></li>
-      <p>Address: <%= restaurant.address %></p>
-      <p>Phone Number: <%= restaurant.phone_number %></p>
-      <p>Category: <%= restaurant.category %></p>
-      <p>
+<div id="restaurants" class="m-4 container">
+  <h1>Restaurants</h1>
+  <% @restaurants.each do |restaurant| %>
+    <div class="card-product m-3">
+      <img src="https://www.ondiseno.com/fotos_proyectos/360/grans/235301.jpg"/>
+      <div class="card-product-infos">
+        <h2><%= restaurant.name %></h2>
+        <p>Address: <%= restaurant.address %></p>
+        <p>Phone Number: <%= restaurant.phone_number %></p>
+        <p>Category: <%= restaurant.category %></p>
+      </div>
+      <p class="m-2">
         <%= link_to "See details", restaurant_path(restaurant), class: "btn btn-primary"%>
       </p>
-    <% end %>
-  </ul>
-</div>
-
-<div class="m-2">
-  <%= link_to "Add a new restaurant", new_restaurant_path, class: "btn btn-warning" %>
+    </div>
+  <% end %>
+  <div class="m-4">
+    <%= link_to "Add a new restaurant", new_restaurant_path, class: "btn btn-warning" %>
+  </div>
 </div>
